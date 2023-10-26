@@ -1,0 +1,221 @@
+/* Estilos generales */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Lucida Sans", sans-serif;
+}
+
+.centrar-imagen {
+  display: block;
+  margin: auto;
+}
+img {
+  transform: scale(1);
+  transition: transform 0.5s;
+  cursor: pointer;
+  position: relative;
+  padding: 10px;
+}
+ /* Estilo para las imágenes de productos */
+ .card-img-fixed {
+  width: 60%; 
+  height: auto; /* Permite que la altura se ajuste automáticamente */
+}
+.gallery a img {
+  display: block;
+  height: auto;
+  width: 75%;
+  text-align: center; 
+}
+.card-img-top {
+  transition: all .8s;
+  border-radius: 10px;
+}
+.card-img-top:hover {
+  filter: grayscale(0);
+}
+.card {
+  border: none;
+}
+
+h2 {
+  text-align: center; 
+  padding: 45px;
+}
+.color-change-5x {
+
+  animation: color-change-5x 8s linear infinite alternate both;
+}
+/* Estilos para el menú */
+.navbar {
+  background-color: #50093e4d; 
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: rgb(230, 235, 230); 
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+  background-color: #555; 
+}
+
+/* Estilos para el contenido principal */
+.container {
+  text-align: center; 
+  padding: 45px;
+}
+
+.container h2 {
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+
+section {
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+p {
+  margin-bottom: 20px;
+  text-align: center; 
+  padding: 45px;
+}
+
+
+body {
+  background-color: #f5f5f5; /* Cambia el fondo de la página */
+  font-family: "Lucida Sans", sans-serif;
+  text-align: center; /* Centrar el contenido principal */
+  padding-top: 20px; /* Agrega un espacio en la parte superior */
+}
+
+.container {
+  background-color: white; /* Fondo blanco para el contenido */
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2); /* Agrega una sombra */
+  margin: 20px auto; /* Centra el contenido en la página */
+}
+
+.container h2 {
+  font-size: 24px; /* Reduce el tamaño del título */
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 16px; /* Tamaño de fuente más legible */
+  margin-bottom: 20px;
+}
+
+.card {
+  border: 1px solid #ddd; /* Agrega un borde a las tarjetas */
+  border-radius: 10px;
+  transition: transform 0.5s ease-in-out;
+  margin-bottom: 20px;
+}
+
+.card:hover {
+  transform: scale(1.05); /* Agranda las tarjetas en el hover */
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.272); /* Agrega una sombra en hover */
+}
+
+.navbar {
+  background-color: #85487f93; /* Cambia el color de fondo de la barra de navegación */
+  margin-bottom: 20px;
+}
+
+.navbar-default .navbar-nav > li > a {
+  color: white; /* Cambia el color del texto del menú a blanco */
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+  background-color: #391430d3; /* Cambia el color de fondo en hover */
+  color: #fff; /* Cambia el color del texto en hover */
+}
+.header h1 {
+  text-align: center;
+  background-color: #85487f93;
+  color: white;
+  padding: 40px;
+  margin-bottom: 20px;
+  font-size: 36px;
+}
+.card-title {
+  font-size: 24px;
+  text-align: center;
+  margin-top: 20px;
+}
+.card-img-top {
+  width: 100%;
+  height: auto;
+}
+.footer {
+  background-color: #85487f93;
+  color: rgba(248, 246, 246, 0.882);
+  text-align: center;
+  font-size: 16px;
+  padding: 15px;
+  clear: both;
+  margin-top: 20px;
+}
+.form-horizontal {
+  margin-top: 20px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-control {
+  width: 100%;
+}
+/* Estilos para la cabecera */
+.header {
+  background-color: #96569a9d;
+  color: #060101ec;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.header h1 {
+  font-size: 45px;
+  margin: 0;
+  color: rgba(0, 0, 0, 0.735);
+  background-image: url(https://conocedores.com/wp-content/uploads/2020/07/mejores-bodegas-mundo-zuccardi-19072020.jpg);
+}
+
+/* Estilos para la tarjeta principal */
+.card {
+  border: none;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.card-title {
+  font-size: 28px;
+}
+
+.card-text {
+  font-size: 18px;
+}
+
+/* Estilos para el footer */
+.footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px 0;
+}
+
+/* Estilos para el enlace activo en el menú */
+.navbar .navbar-nav li.active a {
+  color: #333;
+  background-color: #fff;
+}
+
+
+
